@@ -1,6 +1,6 @@
 package unidad6Ejercicios;
 
-import java.util.Scanner;
+import java.util.Scanner; // tu tio aprende ya ostia
 
 public class Ejercicio2 {
 
