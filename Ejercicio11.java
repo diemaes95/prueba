@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ejercicio11 {
+public class Ejercicio11 { // Puto retrasado de mierda no te quiero a mi lado :)
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,14 +15,14 @@ public class Ejercicio11 {
 			
 		// filtro//
 			
-			System.out.println("Introduzca el número para la posición " + 0 + " del vector.");
+			System.out.println("Introduzca el nÃºmero para la posiciÃ³n " + 0 + " del vector.");
 			numero = entrada.nextInt();
 			vector[0] = numero;
 			
 		for(i = 1; i<5; i++ ) { 
 			do {
-				System.out.println("Introduzca el número para la posición " + i + " del vector.");
-				System.out.println("El número a de ser mayor que el anterior");
+				System.out.println("Introduzca el nÃºmero para la posiciÃ³n " + i + " del vector.");
+				System.out.println("El nÃºmero a de ser mayor que el anterior");
 				numero = entrada.nextInt();
 				vector[i] = numero;
 			} while (vector[i]<vector[i-1]);
@@ -30,7 +30,7 @@ public class Ejercicio11 {
 			
 		// proceso//
 		
-		System.out.println("Introduzca el número para introducir en el vector.");
+		System.out.println("Introduzca el nÃºmero para introducir en el vector.");
 		numero = entrada.nextInt();
 		while (vector[j]<numero && j!=9) {
 			if (numero < vector[j]) {
@@ -49,7 +49,7 @@ public class Ejercicio11 {
 		
 		//imprimir//
 				for (i = 0; i < vector.length; i++) {
-					System.out.println("\n Posición " + i + " | Valor " + vector[i]);
+					System.out.println("\n PosiciÃ³n " + i + " | Valor " + vector[i]);
 				}
 				
 		
