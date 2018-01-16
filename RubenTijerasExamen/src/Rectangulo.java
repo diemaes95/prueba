@@ -1,11 +1,11 @@
 
-public class Rectangulo {
+public class Rectangulo {// dale una colleja al de las luces ruben =) //
 
 	private double base, altura;
 
 	// Constructores
 
-	public Rectangulo(double base, double altura) { // Constructor por par·metros
+	public Rectangulo(double base, double altura) { // Constructor por par√°metros
 		this.base = base;
 		this.altura = altura;
 	}
@@ -15,7 +15,7 @@ public class Rectangulo {
 		double altura = 0;
 	}
 
-	// M…TODOS, GETTER Y SETTER.
+	// M√âTODOS, GETTER Y SETTER.
 
 	public double getBase() {
 		return base;
@@ -71,12 +71,12 @@ public class Rectangulo {
 		if (porcentaje > 1 && porcentaje < 500) { // Filtramos para que el porcentaje sea entre 1 y 500
 			if (porcentaje < 100) {
 				this.base = this.base / 100;
-				this.base = this.base * porcentaje; // Modificamos el tamaÒo al porcentaje requerido.
+				this.base = this.base * porcentaje; // Modificamos el tama√±o al porcentaje requerido.
 				this.altura = this.altura / 100;
 				this.altura = this.altura * porcentaje;
 				cambio = true;
 			}
-			// La operaciÛn ser· la misma en caso de ser mayor de 100 y menor.
+			// La operaci√≥n ser√° la misma en caso de ser mayor de 100 y menor.
 			if (porcentaje > 100) {
 				this.base = this.base / porcentaje;
 				this.base = this.base * porcentaje;
@@ -86,17 +86,17 @@ public class Rectangulo {
 			}
 		}
 
-		return cambio; // Devolvemos true o false si se ha hecho o no el cambio de tamaÒo.
+		return cambio; // Devolvemos true o false si se ha hecho o no el cambio de tama√±o.
 	}
 
 	public boolean opera(Rectangulo rect) {
-		boolean cambio = false; // Cambio ser· false a no ser que se produzcan cambios.
+		boolean cambio = false; // Cambio ser√° false a no ser que se produzcan cambios.
 
 		if (this.diagonal() == rect.diagonal()) { // Filtramos para que solo opere si las diagonales coinciden
 
-			rect.cambiaTamano(25); // Cambiamos tamaÒo a un 25% del original
+			rect.cambiaTamano(25); // Cambiamos tama√±o a un 25% del original
 
-			if (rect.cambiaTamano(25) == true) { // Si se hace el cambio de tamaÒo operamos.
+			if (rect.cambiaTamano(25) == true) { // Si se hace el cambio de tama√±o operamos.
 				rect.altura = this.base + rect.altura;
 				rect.base = this.altura + rect.base;
 				cambio = true;
@@ -110,7 +110,7 @@ public class Rectangulo {
 		Rectangulo rect = new Rectangulo();
 		boolean cambio = false;
 
-		if (this.esCuadrado() == false) { // Si no es cuadrado operar· para hacerlo cuadrado. Si lo es, no har· nada.
+		if (this.esCuadrado() == false) { // Si no es cuadrado operar√° para hacerlo cuadrado. Si lo es, no har√° nada.
 			rect.base = this.base + this.altura;
 			rect.altura = rect.base;
 			cambio = true;
