@@ -1,5 +1,5 @@
 
-public class Rectangulo {// dale una colleja al de las luces ruben =) //
+public class Rectangulo {// soy gay =) //
 
 	private double base, altura;
 
