@@ -1,21 +1,21 @@
-import java.util.Scanner;
+import java.util.Scanner; // Te hackeo la vida subnormal
 public class Ejercicio12 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner entrada = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in); // De tu envidia nace mi fama
 		
 		//variables//
-		int numero, i, indice;
+		int numero, i, indice; // xqxqxqxqxqxqxq
 		
 		//vector//
 		
-		int[] vector;
+		int[] vector; // Puto perfecionista
 		vector = new int[10];
 		
 		for(i = 0; i<vector.length; i++ ) { 
-				System.out.println("Introduzca el número para la posición " + i + " del vector.");
+				System.out.println("Introduzca el nÃºmero para la posiciÃ³n " + i + " del vector.");
 				numero = entrada.nextInt();
 				vector[i] = numero;
 			}
@@ -33,7 +33,7 @@ public class Ejercicio12 {
 		
 		//imprimir//
 		for (i = 0; i < vector.length; i++) {
-			System.out.println("\n Posición " + i + " | Valor " + vector[i]);
+			System.out.println("\n PosiciÃ³n " + i + " | Valor " + vector[i]);
 		}
 		
 	}
