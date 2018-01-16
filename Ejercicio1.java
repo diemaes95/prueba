@@ -1,5 +1,5 @@
-package unidad6Ejercicios;
-
+package unidad6Ejercicios; // Pero tio pero tio pero tio 
+// te Hackeo la vida hijo de puta
 import java.util.*;
 public class Ejercicio1 {
 
