@@ -14,7 +14,7 @@ public class Ejercicio2 {
 		for (int i = 0; i <= 4; i++) {
 			System.out.println("Introducir valor: ");
 			vector[i] = entrada.nextInt();
-		}
+		}// no me gusta esta parte alvaro //
 		
 		for (int i = 4; i >= 0; i--) {
 			System.out.print(vector[i] + " ");
