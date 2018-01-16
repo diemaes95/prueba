@@ -1,7 +1,7 @@
 package unidad6Ejercicios;
 
 import java.util.Scanner; // tu tio aprende ya ostia
-				// ( ̲̅:̲̅:̲̅:̲̅[̲̅ ̲̅]̲̅:̲̅:̲̅:̲̅ )  no sufras//
+				// (:̲̅:̲̅:̲̅[̲̅ ̲̅]̲̅:̲̅:̲̅:̲̅ )  no sufras//
 public class Ejercicio2 {
 
 	public static void main(String[] args) {
