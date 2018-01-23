@@ -32,8 +32,26 @@ public class ordenacion {
 				}
 			}
 			
+	
+		public static void seleccion (int[] vector{
+		int aux,menor,posicion;
 		
->>>>>>> 3e50dccf8dffef02a2f9b27c44bca7169ce148be
+        for(int i=0;i<10-2;i++) {
+        	menor=vector[i];
+        	posicion=i;
+        	for(int j=i+1;j<9;j++) {
+        		if(vector[j]<menor) {
+        			menor=vector[j];
+        			posicion=j;
+        		}
+        	}
+        	if(posicion!=i) {
+            	aux=vector[i];
+            	vector[i]=vector[posicion];
+            	vector[posicion]=aux;
+            }
+        }
+		}
 		
 	}
 
