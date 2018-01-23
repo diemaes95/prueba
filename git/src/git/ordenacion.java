@@ -33,8 +33,7 @@ public class ordenacion {
 	}
 
 	public static void seleccion (int[] vector){
-		int aux,menor;
-		int posicion;
+		int aux,menor, posicion;
 		//Eres to tonto loco
         for(int i=0;i<10-2;i++) {						//Eres to tonto loco
         	menor=vector[i];
