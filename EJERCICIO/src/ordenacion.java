@@ -1,21 +1,19 @@
 
 public class ordenacion {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	
-<<<<<<< HEAD
 	public static void burbujaDesc(int[] array) {
-	for (int i = 0; i < array.length - 1; i++) {
-		for (int j = 0; j <= array.length - i - 2; j++)
-			if (array[j + 1] > array[j]) {
-				tmp = array[j + 1];
-				array[j + 1] = array[j];
-				array[j] = tmp;
-=======
+		int tmp = 0;
+		
+		for (int i = 0; i < array.length - 1; i++) {
+			for (int j = 0; j <= array.length - i - 2; j++)
+				if (array[j + 1] > array[j]) {
+					tmp = array[j + 1];
+					array[j + 1] = array[j];
+					array[j] = tmp;
+			}
+		}
+	}
 	
-=======
-=======
 	public static void seleccion(int[] array) {
 		int aux, posicion;
 		
@@ -37,8 +35,7 @@ public class ordenacion {
 		}//for
 	}
 	
-	
->>>>>>> 407e27d4f4180160c5d59a8e19b0cc813c695c9a
+
 	// Metodo burbuja ascendente
 	public static void burbuja(int[] elementos) {
 		int aux, i, j;
@@ -55,9 +52,8 @@ public class ordenacion {
 		}
 	}
 
->>>>>>> ed1242d0df8d90b491ef4c8ea970637f71b7a9d9
 	// Metodo inserccion Creciente
-	public void static inserccion(int[] vector) {
+	public static void  inserccion(int[] vector) {
 
 		// Declaraciond de variables
 		int vuelta, tmp = 0;
@@ -70,18 +66,7 @@ public class ordenacion {
 				vector[vuelta + 1] = vector[vuelta];
 				vector[vuelta] = tmp;
 				vuelta--;
->>>>>>> 5df2fad488c58930b0aa868c1257af36a4d15316
 			}
 		}
 	}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-	
-	
->>>>>>> 5df2fad488c58930b0aa868c1257af36a4d15316
-=======
->>>>>>> ed1242d0df8d90b491ef4c8ea970637f71b7a9d9
 }
