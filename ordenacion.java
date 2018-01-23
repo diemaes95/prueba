@@ -1,6 +1,9 @@
 
 public class ordenacion {
+	
+	public static void Insercion(int[] vector) {
 
+<<<<<<< HEAD
 	public static void burbuja(int[] vector1) {
 
 		// Variables
@@ -23,3 +26,19 @@ public class ordenacion {
 		}
 	}
 }
+=======
+		int j;
+		int aux;
+		for (int i = 0; i <= vector.length - 1; i++) {
+			aux = vector[i];
+			j = i - 1;
+			while (j >= 0 && vector[j] > aux) {
+				vector[j + 1] = vector[j];
+				vector[j] = aux;
+				j--;
+			}
+		}
+	}
+	
+}
+>>>>>>> dc986d20e1f787bac8605bf486ddb91bbacbb4d8
