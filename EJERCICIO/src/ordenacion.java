@@ -57,7 +57,7 @@ public class ordenacion {
 
 >>>>>>> ed1242d0df8d90b491ef4c8ea970637f71b7a9d9
 	// Metodo inserccion Creciente
-	public void inserccion(int[] vector) {
+	public void static inserccion(int[] vector) {
 
 		// Declaraciond de variables
 		int vuelta, tmp = 0;
