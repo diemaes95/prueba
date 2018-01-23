@@ -17,6 +17,7 @@ public class e1 {
 			System.out.println(numeros[i]);
 		}
 
+		System.out.println("Programa hecho por Juanra");
 	}
 
 }
