@@ -24,7 +24,11 @@ public class calcularFactorial {
 		System.out.println("Introduce el número:");
 		n=teclado.nextInt();
 		
+<<<<<<< HEAD
 		System.out.println("El factorial es "+ factorizar(n)); //HOLA PRIMO QUE TAL
+=======
+		System.out.println("El factorial es "+ factorizar(n));
+>>>>>>> 035fe0f61cb1143200ce400904dbb9b2993ecd18
 		
 	}
 }
