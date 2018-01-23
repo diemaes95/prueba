@@ -1,7 +1,7 @@
 
 public class ordenacion {
 
-<<<<<<< HEAD
+
 
 	public static void seleccion(int[] array) {
 		//Declaración de variables
@@ -25,10 +25,10 @@ public class ordenacion {
 			}
 		}//for
 
+	}
 		
 		
-		
-=======
+
 	
 	
 	// Metodo inserccion Creciente
@@ -47,7 +47,7 @@ public class ordenacion {
 				vuelta--;
 			}
 		}
->>>>>>> 5df2fad488c58930b0aa868c1257af36a4d15316
+
 	}
 	
 
