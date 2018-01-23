@@ -2,9 +2,33 @@ import java.util.Scanner;
 
 public class ClaseOrdenacion {
 	
+public static void burbuja (int [] array ) {
 	
+	int numero, menor, posicion=0, aux;
+	
+	for (int i = 0; i < 9 ; i ++) {
+    	
+    	menor = this.array [i];
+    	posicion = i;
+    	for (int j = i + 1; j < 10; j++ ) {
+    		
+    		if (this.array[j] < menor) {
+    			menor=this.array[j];
+    			posicion = j;
+    		}
+    		
+    	}
+    	
+    	if (posicion != i) {
+    		aux = this.array [i];
+    		this.array [i] = this.array[posicion];
+    		this.array [posicion] = aux;
+    	}
+    	
+    }
 }
-		public static void seleccion (int [] array) {
+	
+public static void seleccion (int [] array) {
 		
 		int numero, menor, posicion=0, aux;
 		
@@ -45,6 +69,11 @@ public class ClaseOrdenacion {
 					j--;
 				}
 			}
+			
+	
+}
+		
+	
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
