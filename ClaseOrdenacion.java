@@ -1,6 +1,34 @@
 import java.util.Scanner;
 
 public class ClaseOrdenacion {
+	
+	
+}
+		public static void seleccion (int [] array) {
+		
+		int numero, menor, posicion=0, aux;
+		
+		for (int i = 0; i < 9 ; i ++) {
+        	
+        	menor = array [i];
+        	posicion = i;
+        	for (int j = i + 1; j < 10; j++ ) {
+        		
+        		if (array[j] < menor) {
+        			menor=array[j];
+        			posicion = j;
+        		}
+        		
+        	}
+        	
+        	if (posicion != i) {
+        		aux = array [i];
+        		array [i] = array[posicion];
+        		array [posicion] = aux;
+        	}
+        	
+        }
+	
 	//Insercción
 		public static void inserccion (int[] array) {
 			//Declaración del array
