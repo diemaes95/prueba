@@ -1,16 +1,12 @@
 package git;
 
 public class ordenacion {
-<<<<<<< HEAD
-
-	public static void insercion(int[] vector) {
-=======
-	
 
 	public static void insercion (int[] vector) {
 
-	int aux;	
+    	int aux;
         for(int i=0;i<10-1;i++) {
+
         	aux=vector[i];
         	int j=i-1;
         	while(j>=0 && vector[j]>aux){
@@ -19,19 +15,6 @@ public class ordenacion {
         		j--;
         	}
         }
-
->>>>>>> 1de0ac082785d367bdf8fa575e7dcae9138fd627
-
-		int aux;
-		for (int i = 0; i < 10 - 1; i++) {
-			aux = vector[i];
-			int j = i - 1;
-			while (j >= 0 && vector[j] > aux) {
-				vector[j + 1] = vector[j];
-				vector[j] = aux;
-				j--;
-			}
-		}
 	}
 
 	public static void burbuja(int[] vector) {
@@ -45,13 +28,11 @@ public class ordenacion {
 				vector[j] = aux;
 				j--;
 			}
-<<<<<<< HEAD
-		}
 
-=======
-			
-	
-		public static void seleccion (int[] vector{
+		}
+	}
+
+	public static void seleccion (int[] vector){
 		int aux,menor,posicion;
 		
         for(int i=0;i<10-2;i++) {
@@ -70,8 +51,7 @@ public class ordenacion {
             }
         }
 		}
-		
->>>>>>> 1de0ac082785d367bdf8fa575e7dcae9138fd627
-	}
 
 }
+
+
