@@ -13,6 +13,7 @@ public class Entornos {
 				}
 			}
 		}
+}
 
 public static void seleccion(int[] array) {
 		int menor;
@@ -41,5 +42,5 @@ public static void seleccion(int[] array) {
 	}
 }
 
-	}
+	
 
