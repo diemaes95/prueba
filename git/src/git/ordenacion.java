@@ -2,7 +2,7 @@ package git;
 
 public class ordenacion {
 	
-<<<<<<< HEAD
+
 	public static void insercion (int[] vector) {
 
 	int aux;	
@@ -15,7 +15,7 @@ public class ordenacion {
         		j--;
         	}
         }
-=======
+
 
 		
 		
