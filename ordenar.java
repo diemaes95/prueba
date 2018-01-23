@@ -3,7 +3,7 @@ public class ordenar {
 public static void crec (int[] vector){
 	
 		    int i, j, menor, pos, tmp;
-	    
+			int david=50;
 	    
 		
 		for(int contador=0;contador<10;contador++) {
