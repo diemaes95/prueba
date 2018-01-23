@@ -34,7 +34,7 @@ public class ClaseOrdenacion {
 
 	public static void main(String[] args) {
 		
-		
+		int numero;
 		
 		int [] array;
 		array = new int [10];
