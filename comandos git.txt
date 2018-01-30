@@ -3,6 +3,7 @@ rm -rf .git
 
 // Empezando:
 git init
+ git remote add origin git@github.com:yourUserName/yourNewRepoName.git
 git clone https://www.github.com/pacampbell/Game
 // cambiar a rama
 git checkout rama
